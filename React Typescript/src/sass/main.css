@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css");
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #eeeeee;
+    --font-color: #000;
+    --gray-light-1: #e9e6e6;
+    --gray-light-2: #e3e3e3;
+    --gray-light-3: #dfdfdf;
+    --gray-light-4: #ebebeb;
+    --gray-dark-1: #c4c4c4;
+    --gray-dark-2: #acacac;
+    --modal-background: #e0e0e0; } }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #3e3e3e;
+    --font-color: #fff;
+    --gray-light-1: #505050;
+    --gray-light-2: #404040;
+    --gray-light-3: #494949;
+    --gray-light-4: #3b3b3b;
+    --gray-dark-1: #353535;
+    --gray-dark-2: #2c2c2c;
+    --modal-background: #3b3b3b; } }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: "Ubuntu", "Noto Sans Thai", sans-serif;
+  color: var(--font-color); }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      padding: 0; } }
